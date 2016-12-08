@@ -46,3 +46,9 @@ Doing all that we get this
 
 I apologize for using such boring images but is 4 am as i wrote this code and i just want to share this. Tomorrow after some coffe i will try to upload a better exaple 
 (For more details see inside the FlowBlur.fx coments) 
+
+
+Future Work:
+ATT it only works in a unidirectional fashion, add a bidirectional blurring
+Use the gaussian function to apply decay
+
