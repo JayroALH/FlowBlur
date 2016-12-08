@@ -13,8 +13,8 @@ From this image
 We can get to this image using a directional blur
 ![A directional blurred blurred gray circle](https://cloud.githubusercontent.com/assets/22602582/20998442/7838afc2-bcd3-11e6-93ca-3e1d39446264.png)
 
-Directional blur takes only 2 parameters direction and lenght. but that is not enought for me. So i wrote this pixel shader in order to be able to change the direction of the blur in a Flow map file
-
+Directional blur takes only 2 parameters direction and lenght.
+But that is not enought for me. So i wrote this pixel shader in order to be able to change the direction of the blur in a Flow map file
 
 
 A flow map is nothing more than a normal map. you can make your own flow maps in photoshop following this article 
