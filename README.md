@@ -3,7 +3,7 @@ Directional Blur using the direction given by a normal map
 
 
 
-I love the directional Blur effect, its in a lot of image editing software but it has a pretty big limitation. it only works in one direction (Not the band)
+I love the directional Blur effect, it's in lots of image editing software but it has a pretty big limitation, it only can be applied in one direction in all the image.
 
 Lets see an example
 
@@ -12,8 +12,8 @@ From this image
 
 We can get to this image using a directional blur
 ![A directional blurred blurred gray circle](https://cloud.githubusercontent.com/assets/22602582/20998442/7838afc2-bcd3-11e6-93ca-3e1d39446264.png)
+You can set just one direction for all the blur effect.
 
-Directional blur takes only 2 parameters direction and lenght.
 But that is not enought for me. So i wrote this pixel shader in order to be able to change the direction of the blur in a Flow map file
 
 
@@ -23,8 +23,11 @@ http://polycount.com/discussion/98983/how-to-paint-flow-anisotropic-comb-maps-in
 As you may know a normalmap is just a map where the RGB components are used as vectors,
 
 Red is the X direction
+
 Green is the Y direction (Note: Depending on the format of your normalmap the value of this component changes. More details below)
-Blue is the Z direction 
+
+Blue is the Z direction, in this shader this is used as a length modifier, so you can alter the length of the sample on a per pixel basis 
+
 
 ![A Simple flow map made in 10 seconds ](https://cloud.githubusercontent.com/assets/22602582/20998436/709fe758-bcd3-11e6-8415-d192f911b02e.png)
 
